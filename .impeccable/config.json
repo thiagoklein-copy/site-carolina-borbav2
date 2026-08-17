@@ -1,0 +1,11 @@
+{
+  "buildPath": "comp",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [],
+    "designSystem": {
+      "enabled": true
+    }
+  }
+}
