@@ -33,11 +33,11 @@ export function About() {
           <figure className="relative mx-auto w-full max-w-[420px]">
             <div className="absolute -inset-3 border border-[color:var(--linha)]" />
             <Image
-              src="/carolina/livro.jpg"
-              alt={`${site.name} lendo o livro Terapia do Esquema Contextual`}
+              src="/carolina/hero.jpg"
+              alt={`${site.name}, psicóloga, sentada numa poltrona com um livro no colo`}
               width={840}
               height={1120}
-              className="relative aspect-[3/4] w-full object-cover"
+              className="relative aspect-[3/4] w-full object-cover object-[center_18%]"
             />
           </figure>
         </Reveal>
