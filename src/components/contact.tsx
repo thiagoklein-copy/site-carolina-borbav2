@@ -14,15 +14,15 @@ function InstagramIcon() {
 
 export function Contact() {
   return (
-    <section id="conversar" className="relative isolate overflow-hidden bg-castanho py-24 text-creme md:py-32">
+    <section id="conversar" className="relative isolate overflow-hidden bg-sombra py-24 text-creme md:py-32">
       <Image
-        src="/carolina/chao.jpg"
+        src="/carolina/hero-fundo.jpg"
         alt=""
         fill
         sizes="100vw"
-        className="object-cover opacity-25 grayscale"
+        className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-castanho/70" />
+      <div className="absolute inset-0 bg-sombra/80" />
 
       <div className="relative z-10 wrap">
         <Reveal>

@@ -94,7 +94,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 0.65rem;
-  background: var(--bordo);
+  background: var(--verde);
   color: #f7efe4;
   text-decoration: none;
   border: 0;
@@ -109,7 +109,7 @@ img {
 }
 
 .cta:hover {
-  background: color-mix(in srgb, var(--bordo) 82%, #2a1614);
+  background: color-mix(in srgb, var(--verde) 78%, var(--sombra));
 }
 
 .cta-ghost {
@@ -120,6 +120,31 @@ img {
 
 .cta-ghost:hover {
   background: color-mix(in srgb, #f7efe4 12%, transparent);
+}
+
+.hero-ink {
+  text-shadow:
+    0 1px 0 color-mix(in srgb, var(--creme) 78%, transparent),
+    0 0 22px color-mix(in srgb, var(--creme) 62%, transparent);
+}
+
+.glass-badge {
+  display: block;
+  width: fit-content;
+  max-width: calc(100% - 2.5rem);
+  margin-inline: auto;
+  padding: 0.85rem 1.45rem;
+  border-radius: 999px;
+  color: #f7efe4;
+  background:
+    linear-gradient(180deg, rgba(247, 239, 228, 0.14), rgba(247, 239, 228, 0.04)),
+    color-mix(in srgb, var(--sombra) 38%, transparent);
+  border: 1px solid color-mix(in srgb, #f7efe4 22%, transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(247, 239, 228, 0.28),
+    0 10px 30px color-mix(in srgb, var(--sombra) 28%, transparent);
+  backdrop-filter: blur(18px) saturate(1.15);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
 }
 
 .prose-brand p {

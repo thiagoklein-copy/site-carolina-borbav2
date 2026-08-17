@@ -46,9 +46,9 @@ export default function RootLayout({
       <body>
         {/*
           THESIS: a landing that feels like being received in a warm room, not a clinic funnel — names overlapping a real portrait, then a long conversation down the page.
-          OWN-WORLD: cream paper, earthy greens and burnt rose, bold lowercase grotesque colliding with a slanted script, Bordô plates as the only hard action.
+          OWN-WORLD: cream paper, earthy greens, bold lowercase grotesque colliding with a slanted script, Verde Médio plates as the only hard action.
           STORY: she is not a defect; patterns learned in relation can be named; WhatsApp is the door.
-          FIRST VIEWPORT: full-bleed grayscale portrait; gold “carolina” / script “Borba”; CRP and audience in the corners; Bordô CTA bottom-right.
+          FIRST VIEWPORT: painterly field; Verde Sombra “carolina” / script “Borba”; CRP and audience in Castanho; liquid-glass attendance pill at the bottom.
           FORM: Mariana Rosa page rhythm + Katachi cinematic hero. Seed: user-pinned 2026-08-17.
           FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
         */}
