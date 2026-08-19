@@ -154,3 +154,7 @@ img {
 .prose-brand p + p {
   margin-top: 1.1rem;
 }
+
+.experience-card {
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--creme) 65%, transparent);
+}

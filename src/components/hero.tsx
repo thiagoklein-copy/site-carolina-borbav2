@@ -35,20 +35,22 @@ export function Hero() {
         />
       </motion.div>
 
-      <div className="absolute inset-x-0 top-0 z-20 flex items-center justify-between gap-4 px-5 pt-5 text-[0.78rem] font-medium tracking-[0.16em] uppercase text-castanho md:px-10 md:pt-7 md:text-[0.88rem]">
+      <div className="absolute inset-x-0 top-0 z-20 flex items-start justify-between gap-4 px-5 pt-5 text-[0.78rem] font-medium tracking-[0.16em] uppercase text-castanho md:px-10 md:pt-7 md:text-[0.88rem]">
         <div className="flex max-w-[24rem] items-center gap-3.5">
-          <span className="relative h-[3.85rem] w-[3.85rem] shrink-0 overflow-hidden rounded-full md:h-[4.65rem] md:w-[4.65rem]">
+          <span className="relative flex h-[3.85rem] w-[3.85rem] shrink-0 items-center justify-center overflow-hidden rounded-full bg-papel md:h-[4.65rem] md:w-[4.65rem]">
             <Image
-              src="/carolina/logo.jpg"
+              src="/carolina/logo.png"
               alt={`Marca de ${site.name}`}
               fill
               sizes="80px"
-              className="object-contain object-center p-[18%]"
+              className="object-contain object-center p-[10%]"
             />
           </span>
           <p className="leading-snug">{site.audience}</p>
         </div>
-        <p className="text-right">{site.crp}</p>
+        <div className="flex h-[3.85rem] shrink-0 items-center md:h-[4.65rem]">
+          <p className="text-right">{site.crp}</p>
+        </div>
       </div>
 
       <motion.div
@@ -63,14 +65,14 @@ export function Hero() {
             Borba
           </span>
         </h1>
-        <p className="hero-ink mt-24 max-w-[22rem] text-[1.05rem] leading-relaxed text-tinta md:mt-32 md:text-xl">
-          um lugar seguro pra quem aprendeu a dar conta de tudo sozinha
+        <p className="glass-badge hero-ink mt-16 text-center text-[0.86rem] leading-snug text-creme/95 md:mt-20 md:text-sm">
+          Atendimento presencial em Novo Hamburgo e online
         </p>
       </motion.div>
 
-      <div className="absolute inset-x-0 bottom-12 z-10 flex justify-center px-5 md:bottom-16">
-        <p className="glass-badge text-center text-[0.86rem] leading-snug text-creme/95 md:text-sm">
-          Atendimento presencial em Novo Hamburgo e online
+      <div className="absolute inset-x-0 bottom-20 z-10 flex justify-center px-5 md:bottom-24">
+        <p className="hero-ink max-w-[22rem] text-center text-[1.05rem] leading-relaxed text-tinta md:text-xl">
+          um lugar seguro pra quem aprendeu a dar conta de tudo sozinha
         </p>
       </div>
     </section>
