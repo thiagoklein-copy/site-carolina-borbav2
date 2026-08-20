@@ -156,6 +156,61 @@ img {
 }
 
 .experience-card {
-  border-radius: 1rem;
-  box-shadow: 0 1px 0 color-mix(in srgb, var(--creme) 65%, transparent);
+  border-radius: 1.25rem;
+  box-shadow:
+    0 1px 0 color-mix(in srgb, #fff8ec 55%, transparent),
+    0 10px 28px color-mix(in srgb, var(--sombra) 7%, transparent);
+}
+
+.tone-card {
+  --tone: var(--oliva);
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--tone) 22%, var(--linha));
+  border-radius: 1.35rem;
+  background: color-mix(in srgb, var(--tone) 11%, var(--papel));
+  padding: 1.45rem 1.45rem 1.55rem;
+  box-shadow:
+    0 1px 0 color-mix(in srgb, #fff8ec 60%, transparent),
+    0 12px 30px color-mix(in srgb, var(--sombra) 7%, transparent);
+  transition:
+    transform 0.35s cubic-bezier(0.21, 0.47, 0.32, 0.98),
+    box-shadow 0.35s cubic-bezier(0.21, 0.47, 0.32, 0.98),
+    border-color 0.35s ease;
+}
+
+.tone-wash {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.35rem;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--tone) 55%, transparent),
+    color-mix(in srgb, var(--tone) 18%, transparent)
+  );
+}
+
+.tone-mark {
+  color: color-mix(in srgb, var(--tone) 72%, var(--castanho));
+}
+
+.tone-card:hover {
+  border-color: color-mix(in srgb, var(--tone) 42%, var(--linha));
+  box-shadow:
+    0 1px 0 color-mix(in srgb, #fff8ec 60%, transparent),
+    0 18px 36px color-mix(in srgb, var(--sombra) 11%, transparent);
+  transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tone-card {
+    transition: none;
+  }
+
+  .tone-card:hover {
+    transform: none;
+  }
 }

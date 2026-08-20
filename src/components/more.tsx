@@ -35,10 +35,10 @@ const experiences = [
   },
 ] as const
 
-function CardAsterisk() {
+function ExperienceMark() {
   return (
     <svg
-      className="h-3.5 w-3.5 shrink-0 -rotate-[9deg] text-oliva/80"
+      className="tone-mark h-3.5 w-3.5 shrink-0 -rotate-[8deg]"
       viewBox="0 0 32 32"
       fill="none"
       aria-hidden
@@ -85,17 +85,16 @@ export function More() {
           </Reveal>
         </div>
 
-        <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {experiences.map((item, index) => (
             <Reveal key={item.title} delay={0.04 * index}>
-              <article className="experience-card h-full border border-[color:var(--linha)] bg-papel px-5 py-5">
-                <div className="mb-3 flex items-start justify-between gap-3">
-                  <h3 className="display text-[1rem] leading-tight text-castanho normal-case md:text-[1.05rem]">
-                    {item.title}
-                  </h3>
-                  <CardAsterisk />
-                </div>
-                <p className="text-[0.98rem] leading-relaxed text-tinta md:text-[1.02rem]">
+              <article className="tone-card">
+                <span className="tone-wash" aria-hidden />
+                <ExperienceMark />
+                <h3 className="display mt-4 text-[1.12rem] leading-[1.15] tracking-[-0.04em] text-castanho md:text-[1.2rem]">
+                  {item.title}
+                </h3>
+                <p className="mt-3 text-[0.98rem] leading-relaxed text-tinta md:text-[1.02rem]">
                   {item.description}
                 </p>
               </article>
