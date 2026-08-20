@@ -17,7 +17,7 @@ const pillars = [
     number: "03",
     title: "Escolha",
     description:
-      "Também será possível trabalhar no fortalecimento da tua autonomia, favorecendo a percepção do que acontece no piloto automático e a construção de escolhas mais conscientes em direção a uma vida que faça sentido e valha a pena para ti.",
+      "Também será possível trabalhar no fortalecimento da tua autonomia, favorecendo a percepção do que acontece no piloto automático e a construção de escolhas mais conscientes em direção a uma vida que faça sentido e valha a pena para\u00A0ti.",
   },
 ] as const
 
@@ -41,7 +41,7 @@ export function TherapyPillars() {
                 <h4 className="mt-3 text-[clamp(1.15rem,2.3vw,1.4rem)] font-medium leading-tight tracking-[-0.02em] text-castanho [font-family:var(--font-carolina-display)] normal-case">
                   {pillar.title}
                 </h4>
-                <p className="mt-4 flex-1 text-[1.02rem] leading-relaxed text-tinta md:text-[1.05rem]">
+                <p className="mt-4 flex-1 text-[1.02rem] leading-relaxed text-pretty text-tinta md:text-[1.05rem]">
                   {pillar.description}
                 </p>
               </article>
