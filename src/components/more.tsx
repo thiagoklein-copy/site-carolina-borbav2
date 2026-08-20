@@ -78,7 +78,7 @@ export function More() {
                   alt={`${site.name} sorrindo, em um retrato acolhedor`}
                   fill
                   sizes="(max-width: 768px) 176px, 208px"
-                  className="object-cover object-[50%_12%] scale-[1.28]"
+                  className="object-cover object-[45%_-15%] scale-[1.28]"
                 />
               </div>
             </figure>
