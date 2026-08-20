@@ -56,12 +56,12 @@ export function More() {
   return (
     <section className="bg-creme py-24 md:py-32">
       <div className="wrap">
-        <div className="grid items-start gap-10 md:grid-cols-[minmax(0,1fr)_auto] md:gap-x-8 lg:gap-x-10">
-          <Reveal>
+        <div className="grid items-start gap-8 md:grid-cols-[minmax(0,52ch)_auto] md:gap-x-10 lg:gap-x-14">
+          <Reveal className="min-w-0">
             <h2 className="display max-w-[11ch] text-[clamp(2.4rem,6vw,4.4rem)] text-castanho">
               pra quem é esse espaço
             </h2>
-            <div className="prose-brand mt-8 max-w-[52ch] text-[1.05rem] md:text-lg">
+            <div className="prose-brand mt-8 text-[1.05rem] md:text-lg">
               <p>
                 Atendo mulheres e adolescentes que desconfiam da própria necessidade de pedir ajuda e
                 convivem com emoções intensas, medo de abandono, impulsividade e relações instáveis.
@@ -70,15 +70,15 @@ export function More() {
             </div>
           </Reveal>
 
-          <Reveal delay={0.1}>
-            <figure className="mx-auto shrink-0 md:mx-0 md:-ml-2 md:justify-self-start md:pt-2">
+          <Reveal delay={0.1} className="justify-self-center md:col-start-2 md:justify-self-start">
+            <figure className="md:-translate-x-[2px] md:pt-2">
               <div className="relative h-44 w-44 overflow-hidden rounded-full border border-[color:var(--linha)] bg-papel md:h-52 md:w-52">
                 <Image
                   src="/carolina/chao.jpg"
                   alt={`${site.name} sorrindo, em um retrato acolhedor`}
                   fill
                   sizes="(max-width: 768px) 176px, 208px"
-                  className="object-cover object-[50%_24%] scale-[1.12]"
+                  className="object-cover object-[50%_12%] scale-[1.28]"
                 />
               </div>
             </figure>
