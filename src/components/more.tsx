@@ -71,7 +71,7 @@ export function More() {
           </Reveal>
 
           <Reveal delay={0.1} className="justify-self-center md:col-start-2 md:justify-self-start">
-            <figure className="md:-translate-x-[2px] md:pt-2">
+            <figure className="md:translate-x-18 md:pt-2">
               <div className="relative h-44 w-44 overflow-hidden rounded-full border border-[color:var(--linha)] bg-papel md:h-52 md:w-52">
                 <Image
                   src="/carolina/chao.jpg"
