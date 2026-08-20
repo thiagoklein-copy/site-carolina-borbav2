@@ -26,23 +26,21 @@ export function TherapyPillars() {
     <section className="bg-papel pt-12 pb-12 md:pt-14 md:pb-16">
       <div className="wrap">
         <Reveal>
-          <div className="max-w-2xl">
-            <h2 className="display text-[clamp(2.4rem,6vw,4.2rem)] text-castanho">
-              processo terapêutico
-            </h2>
-          </div>
+          <h3 className="max-w-2xl text-[clamp(1.5rem,3.2vw,2rem)] font-semibold leading-snug tracking-[-0.02em] text-castanho [font-family:var(--font-carolina-display)] normal-case">
+            processo terapêutico
+          </h3>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:mt-16 md:grid-cols-3 md:gap-8 lg:gap-10">
+        <div className="mt-8 grid gap-6 md:mt-10 md:grid-cols-3 md:gap-8 lg:gap-10">
           {pillars.map((pillar, index) => (
             <Reveal key={pillar.title} delay={0.06 * index}>
               <article className="experience-card flex h-full flex-col border border-[color:var(--linha)] bg-creme px-6 py-7 md:px-7 md:py-8">
                 <p className="text-[0.72rem] font-medium tracking-[0.22em] text-argila uppercase">
                   {pillar.number}
                 </p>
-                <h3 className="display mt-3 text-[clamp(1.65rem,3.2vw,2.15rem)] leading-[1.05] text-castanho normal-case">
+                <h4 className="mt-3 text-[clamp(1.15rem,2.3vw,1.4rem)] font-medium leading-tight tracking-[-0.02em] text-castanho [font-family:var(--font-carolina-display)] normal-case">
                   {pillar.title}
-                </h3>
+                </h4>
                 <p className="mt-4 flex-1 text-[1.02rem] leading-relaxed text-tinta md:text-[1.05rem]">
                   {pillar.description}
                 </p>

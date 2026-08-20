@@ -65,12 +65,9 @@ export function Hero() {
             Borba
           </span>
         </h1>
-        <p className="glass-badge hero-ink mt-16 text-center text-[0.86rem] leading-snug text-creme/95 md:mt-20 md:text-sm">
-          Atendimento presencial em Novo Hamburgo e online
-        </p>
       </motion.div>
 
-      <div className="absolute inset-x-0 bottom-20 z-10 flex justify-center px-5 md:bottom-24">
+      <div className="absolute inset-x-0 bottom-14 z-10 flex justify-center px-5 md:bottom-16">
         <p className="hero-ink max-w-[22rem] text-center text-[1.05rem] leading-relaxed text-tinta md:text-xl">
           um lugar seguro pra quem aprendeu a dar conta de tudo sozinha
         </p>
