@@ -5,19 +5,19 @@ const pillars = [
     number: "01",
     title: "Contexto",
     description:
-      "vamos entender como a tua história de vida e o teu contexto moldaram os teus padrões emocionais e qual a função que essas reações cumprem na tua rotina hoje.",
+      "O processo parte da possibilidade de compreender como a tua história de vida e o teu contexto moldaram os teus padrões emocionais e comportamentais e qual é a função que eles cumprem na tua rotina hoje.",
   },
   {
     number: "02",
     title: "Nomeação",
     description:
-      "vamos identificar e compreender o que tu sente, dando nome às tuas emoções e necessidades com cuidado e compaixão.",
+      "Ao longo do processo, poderemos explorar o que tu sentes, buscando dar nome às tuas emoções e necessidades com cuidado e compaixão.",
   },
   {
     number: "03",
     title: "Escolha",
     description:
-      "fortaleceremos a tua autonomia para que tu saia do piloto automático e faça escolhas com mais segurança em direção a uma vida que vale a pena ser vivida para ti.",
+      "Também será possível trabalhar no fortalecimento da tua autonomia, favorecendo a percepção do que acontece no piloto automático e a construção de escolhas mais conscientes em direção a uma vida que faça sentido e valha a pena para ti.",
   },
 ] as const
 

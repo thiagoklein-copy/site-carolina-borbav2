@@ -1,9 +1,9 @@
 import { Reveal } from "@/components/reveal"
 
 const points = [
-  "O foco do meu trabalho é a clínica com adolescentes e mulheres jovens adultas, tanto em atendimentos online quanto presenciais em Novo Hamburgo/RS.",
   "A terapia é um encontro. Não um espelho frio e neutro, e também não um lugar para performar que está tudo bem.",
-  "Frequência e duração: sessões semanais com duração média de 50 minutos.",
+  "O foco do meu trabalho é a clínica com adolescentes e mulheres jovens adultas, tanto em atendimentos online quanto presenciais em Novo Hamburgo/RS.",
+  "Normalmente, as sessões têm frequência semanal e duração média de 50 minutos. Caso seja necessário, podemos ajustar o formato de acordo com as tuas necessidades se fizer sentido.",
   "Na primeira sessão, a gente se conhece, conversa sobre o que te motivou a procurar atendimento e começa a construir o teu processo, no teu ritmo.",
 ]
 
