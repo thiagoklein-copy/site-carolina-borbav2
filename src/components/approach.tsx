@@ -52,7 +52,7 @@ export function Approach() {
                 Por isso, meu envolvimento no processo está longe da ideia de uma “cirurgiã fria” e
                 distante. Prefiro estar presente como uma pessoa de verdade diante da tua
                 vulnerabilidade e oferecer, dentro dos limites da relação terapêutica, aquilo de que
-                o nosso processo precisar.
+                o teu processo precisar.
               </p>
             </div>
           </Reveal>

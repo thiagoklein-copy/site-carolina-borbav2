@@ -5,25 +5,25 @@ const pillars = [
     number: "01",
     title: "Contexto",
     description:
-      "vamos entender como a tua história de vida e o teu contexto moldaram os teus padrões emocionais e qual a função que essas reações cumprem na tua rotina hoje. Sem reduzir sintomas a defeito pessoal.",
+      "vamos entender como a tua história de vida e o teu contexto moldaram os teus padrões emocionais e qual a função que essas reações cumprem na tua rotina hoje.",
   },
   {
     number: "02",
     title: "Nomeação",
     description:
-      "vamos identificar e entender melhor o que tu sente, dar nome às tuas necessidades e colocar em palavras o que antes só existia como sensação confusa, no corpo ou no silêncio.",
+      "vamos identificar e compreender o que tu sente, dando nome às tuas emoções e necessidades com cuidado e compaixão.",
   },
   {
     number: "03",
     title: "Escolha",
     description:
-      "fortalecermos a tua autonomia para que tu saia do piloto automático e faça escolhas com mais segurança em direção a uma vida que vale a pena ser vivida para ti.",
+      "fortaleceremos a tua autonomia para que tu saia do piloto automático e faça escolhas com mais segurança em direção a uma vida que vale a pena ser vivida para ti.",
   },
 ] as const
 
 export function TherapyPillars() {
   return (
-    <section className="bg-papel py-24 md:py-32">
+    <section className="bg-papel pt-12 pb-12 md:pt-14 md:pb-16">
       <div className="wrap">
         <Reveal>
           <div className="max-w-2xl">

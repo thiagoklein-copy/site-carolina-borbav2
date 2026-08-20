@@ -37,13 +37,13 @@ export function Hero() {
 
       <div className="absolute inset-x-0 top-0 z-20 flex items-start justify-between gap-4 px-5 pt-5 text-[0.78rem] font-medium tracking-[0.16em] uppercase text-castanho md:px-10 md:pt-7 md:text-[0.88rem]">
         <div className="flex max-w-[24rem] items-center gap-3.5">
-          <span className="relative flex h-[3.85rem] w-[3.85rem] shrink-0 items-center justify-center overflow-hidden rounded-full bg-papel md:h-[4.65rem] md:w-[4.65rem]">
+          <span className="relative flex h-[3.85rem] w-[3.85rem] shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#f3ebd4] md:h-[4.65rem] md:w-[4.65rem]">
             <Image
               src="/carolina/logo.png"
               alt={`Marca de ${site.name}`}
               fill
               sizes="80px"
-              className="object-contain object-center p-[10%]"
+              className="object-contain object-center"
             />
           </span>
           <p className="leading-snug">{site.audience}</p>

@@ -27,7 +27,7 @@ function Asterisk() {
 
 export function HowItWorks() {
   return (
-    <section className="bg-papel py-24 md:py-32">
+    <section className="bg-papel pt-24 pb-10 md:pt-32 md:pb-12">
       <div className="wrap grid gap-12 md:grid-cols-[0.9fr_1.1fr] md:items-start">
         <Reveal>
           <h2 className="display max-w-[10ch] text-[clamp(2.4rem,6vw,4.2rem)] text-castanho">

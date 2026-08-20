@@ -156,5 +156,6 @@ img {
 }
 
 .experience-card {
+  border-radius: 1rem;
   box-shadow: 0 1px 0 color-mix(in srgb, var(--creme) 65%, transparent);
 }

@@ -15,8 +15,8 @@ export default function HomePage() {
       <About />
       <Attendances />
       <HowItWorks />
-      <TherapyQuote />
       <TherapyPillars />
+      <TherapyQuote />
       <Approach />
       <More />
       <Contact />
