@@ -6,32 +6,32 @@ const experiences = [
   {
     title: "Autocrítica intensa",
     description:
-      "Sentir uma cobrança interna que nunca desliga e a sensação constante de que nunca é o bastante.",
+      "Sentir uma cobrança interna que nunca desliga e a sensação constante de que nunca é o\u00A0bastante.",
   },
   {
     title: "Medo de rejeição ou abandono",
     description:
-      "Oscilar entre se doar em excesso para manter uma relação e se fechar completamente em uma postura distante para não se machucar.",
+      "Oscilar entre se doar em excesso para manter uma relação e se fechar completamente em uma postura distante para não se\u00A0machucar.",
   },
   {
     title: "Dificuldade de pedir ajuda",
     description:
-      "Achar que precisar de suporte é sinal de fraqueza ou ter receio de ser um peso para os outros.",
+      "Achar que precisar de suporte é sinal de fraqueza ou ter receio de ser um peso para os\u00A0outros.",
   },
   {
     title: "Padrões repetitivos nos relacionamentos",
     description:
-      "Perceber que as tuas relações amorosas ou amizades sempre esbarram nas mesmas dores e inseguranças.",
+      "Perceber que as tuas relações amorosas ou amizades sempre esbarram nas mesmas dores e\u00A0inseguranças.",
   },
   {
     title: "Pressão do cotidiano e identidade",
     description:
-      "Lidar com a sobrecarga das exigências da escola, da faculdade e das expectativas da família enquanto tenta entender quem tu é.",
+      "Lidar com a sobrecarga das exigências da escola, da faculdade e das expectativas da família enquanto tenta entender quem tu\u00A0é.",
   },
   {
     title: "Processos de luto e términos",
     description:
-      "Atravessar perdas significativas e transições difíceis ao longo da vida.",
+      "Atravessar perdas significativas e transições difíceis ao longo da\u00A0vida.",
   },
 ] as const
 
@@ -94,7 +94,7 @@ export function More() {
                 <h3 className="display mt-4 text-[1.12rem] leading-[1.15] tracking-[-0.04em] text-castanho md:text-[1.2rem]">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-[0.98rem] leading-relaxed text-tinta md:text-[1.02rem]">
+                <p className="mt-3 text-[0.98rem] leading-relaxed text-pretty text-tinta md:text-[1.02rem]">
                   {item.description}
                 </p>
               </article>
