@@ -27,6 +27,10 @@ export const metadata: Metadata = {
   description:
     "Um lugar seguro pra quem aprendeu a dar conta de tudo sozinha. Terapia do Esquema Contextual em Novo Hamburgo e online.",
   authors: [{ name: site.fullName }],
+  icons: {
+    icon: [{ url: "/carolina/logo.png", type: "image/png" }],
+    apple: [{ url: "/carolina/logo.png", type: "image/png" }],
+  },
   openGraph: {
     title: `${site.fullName} · Psicóloga`,
     description:
